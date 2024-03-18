@@ -1,0 +1,38 @@
+
+table.board {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+
+  table.board td {
+    border: 1px solid #000;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+
+p {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+.msg.ok {
+    color: white;
+    background-color: rgb(7, 242, 7);
+  }
+
+.msg.err {
+    color: white;
+    background-color: rgb(246, 42, 6);
+  }
+
+body {
+    background-image: linear-gradient(to right, rgb(147, 147, 241), rgb(79, 127, 79));
+  }
+#boggle > p, #boggle > form {
+    text-align: center;
+    margin-top: 20px;
+  }
